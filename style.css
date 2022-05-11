@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    padding: 50px 0;
+background: url('img/фон6.jpeg') 50%/cover no-repeat scroll;
+}
+.conteiner {
+max-width: 1200px;
+background: url('img/фон6.jpeg') 50%/cover fixed no-repeat;
+color: #fff;
+text-align: center;
+margin: 0 auto;
+
+}
+
+.conteiner > h1, .conteiner > h3 {
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, .7);
+    letter-spacing: 3px;
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+.conteiner > h1 {
+    margin: 0 auto 15px;
+}
+
+.photo {
+    max-width: 600px;
+    height: 400px;
+    background: url('img/4.jpg') 50%/cover no-repeat;
+    border: 10px solid #fff;
+    margin: 0 auto;
+}
+
+.metro {
+margin: 30px auto;
+max-width: 800px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.metro_photo {
+    width: 400px;
+    height: 300px;
+    background: url('img/карта.jpg') 50%/cover no-repeat;
+    margin: 0 10px 0 0;
+}
+
+.metro_about {
+    width: 390px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 1rem;
+}
+.metro_about >p {
+    margin: 0;
+}
+
+.look {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.look_photo1 {
+    width: 350px;
+    height: 250px;
+    background: url('img/1.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+.look_photo2 {
+    width: 350px;
+    height: 250px;
+    background: url('img/2.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+.look_photo3 {
+    width: 350px;
+    height: 250px;
+    background: url('img/3.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+.look_photo4 {
+    width: 350px;
+    height: 250px;
+    background: url('img/5.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+.look_photo5 {
+    width: 350px;
+    height: 250px;
+    background: url('img/6.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+.look_photo6 {
+    width: 350px;
+    height: 250px;
+    background: url('img/7.jpg') 50%/cover no-repeat;
+    margin: 10px;
+}
+
+.buttom {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(64, 85, 143);
+    margin: 0 auto;
+    line-height: 35px;
+}
+.buttom:hover {
+    cursor: pointer;
+    opacity: .7;
+}
